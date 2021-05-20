@@ -63,14 +63,12 @@ inp1.pack()
 btn1 = tk.Button(window, text='确定', width=10,
                  height=1, command=begin_predict)
 btn1.pack()
+label3 = tk.Label(window, text='类型预测(体育, 财经, 房产, 家居, 教育, 科技, 时尚, 时政, 游戏, 娱乐)：', font=('Arial', 10), width=60, height=2)
+label3.pack()
 textvar1 = tk.StringVar()
 label2 = tk.Label(window, textvariable=textvar1, font=('Arial', 12), width=30, height=2)
 label2.pack()
-label3 = tk.Label(window, text='类型预测：', font=('Arial', 12), width=30, height=2)
-label3.pack()
 
-textvar_tips = tk.StringVar()
-tips = tk.Label(window,textvariable=textvar1,font=('Arial', 12), width=30, height=2)
-tips.place(x=0,y=400)
+
 # 显示
 window.mainloop()
