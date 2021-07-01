@@ -1,3 +1,6 @@
+# Forked from [gaussic/text-classification-cnn-rnn](https://github.com/gaussic/text-classification-cnn-rnn)
+update:加了一个简单的GUI界面
+
 # Text Classification with CNN and RNN
 
 使用卷积神经网络以及循环神经网络进行中文文本分类
